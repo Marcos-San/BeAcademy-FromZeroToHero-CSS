@@ -1,0 +1,89 @@
+/* body p:nth-of-type(2){
+    color: red;
+    font-size: 24px; 
+
+}
+
+body p:nth-child(2) {
+    color: blue;
+
+} */
+
+/* ul li:nth-child(even) {
+    background: red;
+    color: white;
+}
+
+ul li:nth-child(odd) {
+    background: blue;
+    color: white;
+} */
+
+
+
+
+
+/* .btn-submit {
+    padding: 12px;
+    color: white;
+    background: rgb(0, 111, 215);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background .2s;
+}
+
+.btn-submit:hover {
+    background: rgba(18, 102, 172, 0.993);
+}
+
+.btn-submit:focus {
+    background: red;
+}
+
+inpuy[type=text] {
+    border: 1px solid #f2f2f2;
+    padding: 12px;
+    border-radius: 4px;
+    margin-bottom: 8px;
+    outline: none;
+    transition: .2s;
+}
+
+input[type=text]:hover {
+    border: 1px solid rgb(0, 111, 215);
+}
+
+input[type=text]:disabled {
+    background: rgba(144, 201, 248, 0.993);
+}
+
+input[type=text]:disabled::placeholder {
+    color: white;
+} */
+
+
+
+ul li::after {
+    content:'';
+    background-color: red;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    position: absolute;
+    left: 140px;
+}
+
+ul li::before {
+    content:'';
+    background-color: blue;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    position: absolute;
+    left: 0px;
+}
+
+p::first-line {
+    color: red;
+}
